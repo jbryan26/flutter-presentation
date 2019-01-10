@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_building_blocks/ReposList.dart';
 
 void main() => runApp(MyApp());
 
@@ -87,16 +88,33 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            TextField(
-              decoration: InputDecoration(
-                border: OutlineInputBorder(),
-                hintText: "Please enter a github username",
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: TextField(
+                decoration: InputDecoration(
+                  border: OutlineInputBorder(),
+                  hintText: "Please enter a github username",
+                ),
+                controller: _usernameController,
               ),
-              controller: _usernameController,
+            ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: RaisedButton(
+                child: Text("Get Repos"),
+                color: Colors.blueAccent,
+                onPressed: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (content) => ReposList()));
+                },
+              ),
             ),
           ],
         ),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
+
+
 }
