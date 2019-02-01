@@ -5,12 +5,12 @@ It contains the completed live coding demo and the settings file that contains t
 
 The app will show you how to:
 
-Customize and create UI
-Handle click events with a button
-Read data from text fields
-Navigate and send parameters to another page
-Make a networking request and handle the response
-Display content in a list
-Display an image from a networked URL
+- Customize and create UI
+- Handle click events with a button
+- Read data from text fields
+- Navigate and send parameters to another page
+- Make a networking request and handle the response
+- Display content in a list
+- Display an image from a networked URL
 
-For more detailed documentation, please visit https://flutter.io for more information
+For detailed documentation about Flutter, please visit https://flutter.io for more information
