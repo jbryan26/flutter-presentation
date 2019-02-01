@@ -13,4 +13,4 @@ Make a networking request and handle the response
 Display content in a list
 Display an image from a networked URL
 
-For more detailed documentation, please visit flutter.io for more information
+For more detailed documentation, please visit https://flutter.io for more information
