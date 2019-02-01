@@ -1,6 +1,8 @@
 # Building Blocks for Beautiful Cross-Platform Applications
 This is the repo for my flutter talk at CodeMash. 
 
+Slides are available [here](https://speakerdeck.com/jbryant06/building-blocks-for-beautiful-cross-platform-applications-an-intro-to-flutter) 
+
 It contains the completed live coding demo and the settings file that contains the live templates that I used during the talk. 
 
 The app will show you how to:
